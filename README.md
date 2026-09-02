@@ -3,12 +3,11 @@
   1. Swap "your-portfolio-url.com", "your-linkedin", "your-handle", "you@example.com" for the real ones.
   2. Replace every "#" placeholder link in "Featured Builds" with the actual repo URL (or delete the line if a project isn't public).
   3. This file must live in a repo named EXACTLY "prateekgaurdev" (same as your username) — that's what makes GitHub render it as your profile page.
-  4. Commit "banner.svg" into this same repo (e.g. under an "assets/" folder) — the header below loads it from a relative path so the moving-current border animation actually plays on your profile.
-  5. Optional: wire up the Contribution Snake action in the collapsed section near the bottom.
+  4. Optional: wire up the Contribution Snake action in the collapsed section near the bottom.
 -->
 
 <div align="center">
-<img src="banner.svg" width="100%"/>
+<img src="./banner.svg" width="100%"/>
 </div>
 
 <div align="center">
@@ -112,12 +111,23 @@ SHIPPING
 
 ## 📊 System Diagnostics
 
+<!--
+  The stats + top-languages cards below are commented out on purpose.
+  The shared public instance (github-readme-stats.vercel.app) is currently
+  returning 503 DEPLOYMENT_PAUSED for everyone, not just you — see
+  https://github.com/anuraghazra/github-readme-stats/issues/4737
+  Fix: fork https://github.com/anuraghazra/github-readme-stats, deploy your
+  own copy to Vercel (free, ~5 min, one env var = a GitHub token), then swap
+  "github-readme-stats.vercel.app" below for your own *.vercel.app domain
+  and uncomment this block.
+
 <table align="center">
 <tr>
 <td><img src="https://github-readme-stats.vercel.app/api?username=prateekgaurdev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" /></td>
 <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prateekgaurdev&layout=compact&theme=tokyonight&hide_border=true" /></td>
 </tr>
 </table>
+-->
 
 <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=prateekgaurdev&theme=tokyonight&hide_border=true" />
@@ -127,9 +137,18 @@ SHIPPING
 
 ## 🏆 Achievements
 
+<!--
+  Same story as above — the shared public instance of github-profile-trophy
+  is rate-limited/paused for everyone right now (a known, recurring issue:
+  https://github.com/ryo-ma/github-profile-trophy/issues). Fix: fork
+  https://github.com/ryo-ma/github-profile-trophy, deploy your own copy to
+  Vercel, swap the domain below, then uncomment.
+
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=prateekgaurdev&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=15" />
 </div>
+-->
+
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,100:8A2BE2&height=3&section=header" width="100%"/></div>
 
