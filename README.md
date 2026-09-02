@@ -158,7 +158,7 @@ SHIPPING
 Python CLI tool that converts entire codebases into LLM-ready context files — smart diffing, watch mode, focus mode, and direct GitHub URL support. Ships with its own React + Tailwind marketing site.
 
 `Python` `CLI` `LLM Tooling`
-🔗 [Repo →](#) <sub>*(update with real link)*</sub>
+🔗 [Repo →](https://repoview.prateekgaur.in/)
 
 ---
 
