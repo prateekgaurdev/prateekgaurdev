@@ -1,9 +1,9 @@
 <!--
   ✏️ CUSTOMIZE BEFORE PUSHING
-  1. Swap "your-portfolio-url.com", "your-linkedin", "your-handle", "you@example.com" for the real ones.
+  1. Swap the leftover "your-handle" X/Twitter placeholder below for your real handle — portfolio, LinkedIn and email are already filled in.
   2. Replace every "#" placeholder link in "Featured Builds" with the actual repo URL (or delete the line if a project isn't public).
   3. This file must live in a repo named EXACTLY "prateekgaurdev" (same as your username) — that's what makes GitHub render it as your profile page.
-  4. Optional: wire up the Contribution Snake action in the collapsed section near the bottom.
+  4. Commit `assets/matrix-rain.svg` and `.github/workflows/snake.yml` alongside this README — the animated rain banner and the "🐍 Commit History, As A Snake" section both depend on them. The snake needs its first Action run before it shows anything (push to main, or trigger it manually from the Actions tab) — the `output` branch it reads from doesn't exist until then.
 -->
 
 <div align="center">
@@ -31,6 +31,10 @@
 <p align="center"><i>Welcome to my corner of the machine — where late-night debugging turns into shipped systems.</i></p>
 
 <div align="center">
+<img src="./assets/matrix-rain.svg" width="100%" alt="animated matrix code rain"/>
+</div>
+
+<div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://prateekgaur.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gaur-prateek)
@@ -46,7 +50,7 @@
 
 </div>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,100:8A2BE2&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
 
 ## 🤖 whoami
 
@@ -65,7 +69,7 @@ $ echo $STATUS
 SHIPPING
 ```
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,100:8A2BE2&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
 
 ## 🧠 Neural Stack
 
@@ -107,50 +111,66 @@ SHIPPING
 
 </div>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,100:8A2BE2&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
 
 ## 📊 System Diagnostics
 
 <!--
-  The stats + top-languages cards below are commented out on purpose.
-  The shared public instance (github-readme-stats.vercel.app) is currently
-  returning 503 DEPLOYMENT_PAUSED for everyone, not just you — see
-  https://github.com/anuraghazra/github-readme-stats/issues/4737
-  Fix: fork https://github.com/anuraghazra/github-readme-stats, deploy your
-  own copy to Vercel (free, ~5 min, one env var = a GitHub token), then swap
-  "github-readme-stats.vercel.app" below for your own *.vercel.app domain
-  and uncomment this block.
+  github-readme-stats.vercel.app has been permanently dead since Jan 2026
+  (503 DEPLOYMENT_PAUSED — the project is unmaintained and its own README
+  now points people at a successor). These two cards now point at
+  github-stats-extended.vercel.app instead: same theme, same query params,
+  a drop-in domain swap. If that shared instance ever gets rate-limited too,
+  fork it and deploy your own copy to Vercel for a dedicated instance.
+  Note: private-contribution counts only show up if you self-host with a
+  personal access token — the shared public instance can't see those.
+-->
 
 <table align="center">
 <tr>
-<td><img src="https://github-readme-stats.vercel.app/api?username=prateekgaurdev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" /></td>
-<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prateekgaurdev&layout=compact&theme=tokyonight&hide_border=true" /></td>
+<td><img src="https://github-stats-extended.vercel.app/api?username=prateekgaurdev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" /></td>
+<td><img src="https://github-stats-extended.vercel.app/api/top-langs/?username=prateekgaurdev&layout=compact&theme=tokyonight&hide_border=true" /></td>
 </tr>
 </table>
--->
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=prateekgaurdev&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com/?user=prateekgaurdev&theme=tokyonight&hide_border=true" />
 </div>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,100:8A2BE2&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
+
+## 🐍 Commit History, As A Snake
+
+Every square in the contribution graph gets eaten in order — regenerated every 6 hours by the GitHub Action in `.github/workflows/snake.yml` and pushed to the `output` branch.
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake.svg" />
+  <img alt="a snake eating my github contribution graph" src="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+</p>
+
+> This stays blank until the workflow has run once — the `output` branch it reads from doesn't exist yet on a fresh repo. Push to `main` or trigger it manually from the **Actions** tab, then give it a minute.
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
 
 ## 🏆 Achievements
 
 <!--
-  Same story as above — the shared public instance of github-profile-trophy
-  is rate-limited/paused for everyone right now (a known, recurring issue:
-  https://github.com/ryo-ma/github-profile-trophy/issues). Fix: fork
-  https://github.com/ryo-ma/github-profile-trophy, deploy your own copy to
-  Vercel, swap the domain below, then uncomment.
+  github-profile-trophy.vercel.app is still online but the maintainer has
+  flagged it as financially unsustainable and it gets rate-limited under
+  load — see https://github.com/ryo-ma/github-profile-trophy. If it's
+  showing broken images for you, fork the repo and deploy your own instance
+  to Vercel (or self-host the render_svg.ts script via a GitHub Action so
+  nothing depends on a shared server). Swap the domain below and uncomment.
 
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=prateekgaurdev&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=15" />
 </div>
 -->
 
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,100:8A2BE2&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
 
 ## ⚡ Featured Builds
 
@@ -200,41 +220,47 @@ Computer-vision-driven browser automation pipeline (evolved from a YOLO+vision h
 `Playwright` `Selenium` `Computer Vision`
 🔗 [Repo →](#)
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,100:8A2BE2&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
 
 <details>
-<summary>🐍 Bonus: Live Contribution Snake (GitHub Action setup)</summary>
+<summary>⚙️ Snake workflow reference (already wired up above)</summary>
 
 <br/>
 
-Add `.github/workflows/snake.yml`:
+This is the exact content of `.github/workflows/snake.yml` — it's already included alongside this README, so you don't need to recreate it. Shown here for reference and easy tweaking.
 
 ```yaml
-name: generate animated snake
+name: generate contribution snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch: {}
+    - cron: "0 */6 * * *"    # regenerate every 6 hours
+  workflow_dispatch: {}       # lets you trigger it manually from the Actions tab
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
+      # renders your contribution graph as a snake game and outputs it as svg
       - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: push snake to output branch
+      # publishes dist/ to the "output" branch, which the <picture> tag
+      # above points at via raw.githubusercontent.com
+      - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
@@ -243,15 +269,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Then embed it back in this README:
-
-```markdown
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake.svg">
-</picture>
-```
+To customize:
+- **Snake color** — add `?color_snake=purple` (or any CSS color) to either output line.
+- **Theme** — swap `palette=github-dark` for `palette=github-light` or drop it entirely.
+- **Update frequency** — edit the cron schedule (currently every 6 hours).
 
 </details>
 
@@ -259,4 +280,4 @@ Then embed it back in this README:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=140&section=footer" width="100%"/>
 </div>
 
-<div align="center"><sub>⚡ built and maintained by prateekgaurdev — powered by caffeine, curiosity, and a few too many take-home assessments.</sub></div>
+<div align="center"><sub>⚡ built and maintained by prateekgaurdev — powered by caffeine, curiosity, a GitHub Action or two, and a few too many take-home assessments.</sub></div>
