@@ -141,7 +141,6 @@ SHIPPING
 
 ## 🐍 Commit History, As A Snake
 
-Every square in the contribution graph gets eaten in order — regenerated every 6 hours by the GitHub Action in `.github/workflows/snake.yml` and pushed to the `output` branch.
 
 <p align="center">
 <picture>
@@ -150,8 +149,6 @@ Every square in the contribution graph gets eaten in order — regenerated every
   <img alt="a snake eating my github contribution graph" src="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
 </p>
-
-> This stays blank until the workflow has run once — the `output` branch it reads from doesn't exist yet on a fresh repo. Push to `main` or trigger it manually from the **Actions** tab, then give it a minute.
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
 
