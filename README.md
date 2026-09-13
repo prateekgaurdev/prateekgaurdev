@@ -30,9 +30,13 @@
 
 <p align="center"><i>Welcome to my corner of the machine — where late-night debugging turns into shipped systems.</i></p>
 
-<div align="center">
-<img src="./assets/matrix-rain.svg" width="100%" alt="animated matrix code rain"/>
-</div>
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake.svg" />
+  <img alt="a snake eating my github contribution graph" src="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+</p>
 
 <div align="center">
 
@@ -139,18 +143,6 @@ SHIPPING
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
 
-## 🐍 Commit History, As A Snake
-
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake.svg" />
-  <img alt="a snake eating my github contribution graph" src="https://raw.githubusercontent.com/prateekgaurdev/prateekgaurdev/output/github-contribution-grid-snake.svg" width="100%"/>
-</picture>
-</p>
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=20&section=header" width="100%"/></div>
 
 ## 🏆 Achievements
 
